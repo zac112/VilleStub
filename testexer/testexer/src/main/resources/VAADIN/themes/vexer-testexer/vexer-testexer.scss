@@ -1,0 +1,71 @@
+@mixin vexer-testexer {
+
+	/*
+	* Vaadin provides an effective way of importing add-on themes but does not 
+	* provide any automatic name-spacing. You should prefix all your 
+	* rules with testexer to avoid any conflicts.
+	*/
+
+	.testexer-answer {
+		color: green;
+	}
+
+	.testexer-title {
+		font-size: 24px;
+		font-weight: stronger;
+	}
+
+	.testexer-border{
+		border: 1px solid black;
+	}
+
+	.testexer-atom {
+		font-size: 30px;
+		background-color: lightgray;
+		text-align: center;
+		border: 1px dashed black
+	}
+
+	.v-accordion-item-caption {
+		font-size: 25px;
+		text-align: center;
+		background-color: #faf0e6;
+	}
+	.testexer-vertical1 {
+		background-image:url("Vertical1.png");
+	}
+	.testexer-vertical2 {
+		background-image:url("Vertical2.png");
+	}
+	.testexer-vertical3 {
+		background-image:url("Vertical3.png");
+	}
+	.testexer-horizontal1 {
+		background-image:url("Horizontal1.png");
+	}
+	.testexer-horizontal2 {
+		background-image:url("Horizontal2.png");
+	}
+	.testexer-horizontal3 {
+		background-image:url("Horizontal3.png");
+	}
+	.testexer-slash1 {
+		background-image:url("Slash1.png");
+	}
+	.testexer-slash2 {
+		background-image:url("Slash2.png");
+	}
+	.testexer-slash3 {
+		background-image:url("Slash3.png");
+	}
+	.testexer-backslash1 {
+		background-image:url("Backslash1.png");
+	}
+	.testexer-backslash2 {
+		background-image:url("Backslash2.png");
+	}
+	.testexer-backslash3 {
+		background-image:url("Backslash3.png");
+	}
+
+}

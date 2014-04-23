@@ -1,0 +1,6 @@
+@import "addons.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+.testexer-stub-theme {
+  @include addons;
+}
