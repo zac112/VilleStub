@@ -170,6 +170,13 @@ public class Molecule implements Serializable {
         return null;
     }
 
+    /**
+     * Finds the bond at the given x,y-coordinate
+     * 
+     * @param x
+     * @param y
+     * @return
+     */
     private Bond findBond(int x, int y) {
         Bond[] bonds = getBonds();
         for (int i = 0; i < bonds.length; i++) {

@@ -94,7 +94,15 @@ public class TestExerExecutor extends VerticalLayout implements
 
     @Override
     public void askReset() {
-        // nothing to do here
+        GridLayout layout = (GridLayout) (sheet.getTab(sheet.getSelectedTab())
+                .getComponent());
+        layout.removeAllComponents();
+
+        int tab = sheet.getTabPosition(sheet.getTab(sheet.getSelectedTab()));
+        ((GridLayout) sheet.getSelectedTab()).addComponent(TestExerGUIUtils
+                .createMoleculeGrid(new Molecule(),
+                        exerciseData.getDimensions(tab)));
+        ((GridLayout) sheet.getSelectedTab()).setData(new Molecule());
     }
 
     @Override
