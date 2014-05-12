@@ -45,7 +45,7 @@ public class Molecule implements Serializable {
             }
             b.bond(connectedElements);
             /*
-             * System.out.println("created bond " + b + " connectiong " +
+             * System.out.println("created bond " + b + " connecting " +
              * connectedElements[0] + " and " + connectedElements[1]);
              */
         }

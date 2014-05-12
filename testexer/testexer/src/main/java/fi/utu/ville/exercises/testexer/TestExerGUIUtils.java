@@ -67,7 +67,7 @@ public class TestExerGUIUtils {
                 dimensions[1]);
 
         moleculeGrid.addStyleName("testexer-border");
-        moleculeGrid.setData(new Molecule()); // make sure the data
+        moleculeGrid.setData(new Molecule()); // makes sure the data
                                               // is not null
 
         /*
